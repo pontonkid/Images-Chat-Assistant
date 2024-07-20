@@ -13,3 +13,9 @@ import nltk
 
 nltk.download('punkt')
 from nltk import sent_tokenize
+
+
+# Set up locale
+os.environ["LANG"] = "en_US.UTF-8"
+os.environ["LC_ALL"] = "en_US.UTF-8"
+locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
